@@ -1,10 +1,10 @@
 extends partial/layout
 block content
-	.content
+	.notice-container
 		.notice
 			.title='公告'
 			.notice-content!=theme.notice
-	.autopagerize_page_element: .content
+	.autopagerize_page_element: .content.post-list
 		- page.posts.each(function (item) {
 			include mixins
 			+make_post(item, false)

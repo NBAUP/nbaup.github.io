@@ -134,12 +134,13 @@ a:active {
   font-size: 12px;
 }
 .page-top .nav li {
+  display: flex;
   position: relative;
-  display: inline-block;
+  display: initial;
   padding-right: 20px;
 }
 .page-top .nav li form {
-  display: inline-block;
+  display: inline;
 }
 .page-top .nav a {
   color: #5a5a5a;
@@ -179,7 +180,7 @@ a:active {
   width: 30%;
   -webkit-background-size: cover;
   background-size: cover;
-  background-color: #fff;
+  /* background-color: #fff; */
   height: 100%;
   transition: 0.8s;
   top: 0;
@@ -666,7 +667,42 @@ a.btn {
   padding-top: 50px;
 }
 
-@media screen and (max-width: 960px) {
+/* notice */
+.notice-container {
+  height: auto;
+  float: right;
+  width: 70%;
+  margin-top: 60px;
+}
+
+.notice {
+  display: block;
+  padding: 1.6rem 2.3rem;
+  margin-bottom: -3rem;
+  box-shadow: 0.5rem 0.875rem 2.375rem rgba(39, 44, 49, 0.06),
+    0.0625rem 0.1875rem 0.5rem rgba(39, 44, 49, 0.03);
+  background-color: #fff;
+  border: none;
+  border-radius: 0.5rem;
+  --border-color: #c2c2c2;
+  font-family: Source Sans Pro, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Helvetica Neue, Arial, sans-serif;
+  word-spacing: 0.0625rem;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+.notice .title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.notice-content {
+  margin-top: 2rem;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
   .sidebar {
     width: 100%;
     position: absolute;
@@ -692,7 +728,7 @@ a.btn {
   }
 
   .content {
-    margin-top: 420px;
+    margin-top: 40rem;
     width: 100%;
     z-index: 2;
     position: absolute;
@@ -705,11 +741,18 @@ a.btn {
   .share {
     display: grid;
   }
+
+  .notice-container {
+    margin-top: 25rem;
+    width: 100%;
+    padding: 0;
+    display: block;
+  }
 }
 
 #search-box {
-  display: inline-block;
-  width: 200px;
+  display: inline;
+  /* width: 200px; */
 }
 
 .site-search-form {
@@ -787,36 +830,6 @@ a.btn {
   }
 }
 
-/* notice */
-
-.notice {
-  display: block;
-  padding: 1.5625rem 2.3rem;
-  margin-bottom: -3rem;
-  width: 100%;
-  box-shadow: 0.5rem 0.875rem 2.375rem rgba(39, 44, 49, 0.06),
-    0.0625rem 0.1875rem 0.5rem rgba(39, 44, 49, 0.03);
-  background-color: #fff;
-  border: none;
-  border-radius: 0.5rem;
-  --border-color: #c2c2c2;
-  font-family: Source Sans Pro, -apple-system, BlinkMacSystemFont, Segoe UI,
-    Roboto, Helvetica Neue, Arial, sans-serif;
-  word-spacing: 0.0625rem;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-font-smoothing: antialiased;
-}
-
-.notice .title {
-  font-size: 2rem;
-  font-weight: bold;
-}
-
-.notice-content {
-  margin-top: 2rem;
-  font-size: 1rem;
-}
-
 /* reward */
 #reward-container {
   padding: 10px 0;
@@ -830,14 +843,14 @@ a.btn {
   text-align: center;
   cursor: pointer;
   padding: 0.5rem;
-  color: $yellow;
   border-radius: 100%;
-  width: 1.5rem;
+  width: 5rem;
   height: 1.5rem;
   text-align: center;
 }
 
 #reward-button .icon {
+  padding: 0.5rem;
   width: 1.5rem;
   height: 1.5rem;
   vertical-align: top;
@@ -867,5 +880,6 @@ a.btn {
 
 #search-box {
   display: inline;
-  width: 200px;
 }
+
+/* search */
