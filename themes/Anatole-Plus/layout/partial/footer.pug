@@ -1,0 +1,38 @@
+.footer
+  .p 
+    span © 2019 - 2020 
+    span= config.title
+    br
+    script(async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js")
+    span#busuanzi_container_site_pv
+      | 本站总访问量
+      span#busuanzi_value_site_pv
+      | 次
+    br
+    span 博客安全运行
+    span#my_blog_live_time
+    script.
+      function blog_live_time(){
+        window.setTimeout("blog_live_time()", 1000); //重复执行
+        Start = new Date("10/01/2019 00:00:00"); //起始时间 格式: d/m/y h/m/s
+        today = new Date(); //现在时间
+        timeold = (today.getTime() - Start.getTime()); //现在时间与起始时间差了多少
+        sectimeold = timeold / 1000
+        secondsold = Math.floor(sectimeold); //秒
+        msPerDay = 24 * 60 * 60 * 1000;
+        e_daysold = timeold / msPerDay;
+        daysold = Math.floor(e_daysold); //计算天数
+        e_hrsold = (e_daysold - daysold) * 24;
+        hrsold = Math.floor(e_hrsold); //计算小时
+        e_minsold = (e_hrsold - hrsold) * 60;
+        minsold = Math.floor((e_hrsold - hrsold) * 60); //计算多少分
+        seconds = Math.floor((e_minsold - minsold) * 60); //计算多少秒
+        my_blog_live_time.innerHTML = "" + daysold + "天" + hrsold + "小时" + minsold + "分" + seconds + "秒"; //显示
+      }
+      blog_live_time();
+  .by_farbox
+    a(href="https://hexo.io/zh-cn/" target="_blank") Hexo
+    span &nbsp;with&nbsp;
+    a(href="https://github.com/yemaster/Anatole-Plus" target="_blank") Anatole-Plus(V19.8.20)
+    span  |
+    a(href="http://www.miitbeian.gov.cn/" target="_blank")  浙ICP备15021890号

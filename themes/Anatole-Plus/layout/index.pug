@@ -1,0 +1,13 @@
+extends partial/layout
+block content
+	.content
+		.notice
+			.title='公告'
+			.notice-content!=theme.notice
+	.autopagerize_page_element: .content
+		- page.posts.each(function (item) {
+			include mixins
+			+make_post(item, false)
+		- })
+		include mixins
+		+make_pager(__('prev'), __('next'))
