@@ -847,6 +847,8 @@ a.btn {
   width: 5rem;
   height: 1.5rem;
   text-align: center;
+  font-weight: bold;
+  color: #4786d6;
 }
 
 #reward-button .icon {
