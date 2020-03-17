@@ -109,3 +109,6 @@ search:
   field: post
   content: true
   format: html
+
+sitemap:
+  path: sitemap.xml
