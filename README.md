@@ -8,7 +8,12 @@ git commit -m "backup"
 git push
 ```
 
-## 还原备份
+## 备份
+
+```sh
+git reset --hard 
+git reset --hard HEAD^
+```
 
 
 
