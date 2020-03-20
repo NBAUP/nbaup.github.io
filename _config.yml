@@ -6,7 +6,18 @@
 title: NBA·Max
 subtitle: "YouTube NBA精彩视频分享博客!"
 description: "YouTube 篮球视频分享！"
-keywords: NBA,篮球,NBA战术,投篮,篮球技能,篮球技术,NBA视频,NBA战术分析,NBA经典回顾,NBA球员,NBA交易,
+keywords:
+  - NBA
+  - 篮球
+  - NBA战术
+  - 投篮
+  - 篮球技能
+  - 篮球技术
+  - NBA视频
+  - NBA战术分析
+  - NBA经典回顾
+  - NBA球员
+  - NBA交易
 author: Max
 language: zh-CN
 timezone: "Asia/Shanghai"
@@ -86,14 +97,14 @@ pagination_dir: page
 
 # Include / Exclude file(s)
 ## include:/exclude: options only apply to the 'source/' folder
-include:
-exclude:
-ignore:
+# include:
+# exclude:
+# ignore:
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: Anatole-Plus
+theme: yun
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html

@@ -1,0 +1,85 @@
+favicon: /favicon.ico
+
+colors:
+  primary: "#C97E50"
+
+banner:
+  enable: false
+
+say:
+  enable: false
+
+avatar:
+  url: /images/avatar.png
+
+reward_settings:
+  enable: true
+  comment: 犒赏博主
+  url: /about
+
+footer:
+  since: 2019
+  icon:
+    name: icon-basketball-line
+    color: "#C97E50"
+  beian:
+    enable: true
+    icp: 浙ICP备15021890号
+  live_time:
+    enable: true
+    start_time: 2020-01-27T00:00:00
+    prefix: 本博客已运行
+    suffix:
+
+notice:
+  enable: true
+  content: 本博客所有视频归NBA（美国职业篮球联赛）及视频制作方所有，视频仅做学习之用，不得用于商业行为！
+
+bg_image:
+  url: /images/SEO-image-NBA-logoman.jpg
+  blur: 10px
+  opacity: 0.08
+
+social:
+  - name: 微博
+    link: https://www.weibo.com/mitoplus
+    icon: icon-weibo-line
+    color: "#E6162D"
+  - name: 哔哩哔哩
+    link: https://space.bilibili.com/521602226
+    icon: icon-bilibili-line
+    color: "#FF8EB3"
+
+pages:
+  - name: 友链
+    url: /links/
+    icon: icon-basketball-line
+    color: dodgerblue
+
+head:
+  js:
+    async:
+      iconfont: //at.alicdn.com/t/font_1704487_b1ct7hrpsjd.js
+
+reward:
+  - name: 支付宝
+    path: /images/alipay.jpg
+    color: "#00A3EE"
+    icon: icon-alipay-line
+  - name: 微信支付
+    path: /images/wechatpay.jpg
+    color: "#2DC100"
+    icon: icon-wechat-pay-line
+
+engine_search:
+  enable: false
+
+local_search:
+  enable: true
+
+search:
+  bg_image: /images/search-bg.jpg
+
+sidebar:
+  bg_image: /images/sidebar-bg.png
+  bg_position: bottom 0rem right
