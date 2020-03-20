@@ -83,3 +83,6 @@ search:
 sidebar:
   bg_image: /images/sidebar-bg.png
   bg_position: bottom 0rem right
+
+archive:
+  last_word: 没有更多视频了
