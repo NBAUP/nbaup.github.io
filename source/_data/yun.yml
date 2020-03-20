@@ -86,3 +86,6 @@ sidebar:
 
 archive:
   last_word: 没有更多视频了
+
+comment:
+  enable: false
