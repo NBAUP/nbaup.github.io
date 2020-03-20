@@ -89,3 +89,6 @@ archive:
 
 comment:
   enable: false
+
+busuanzi:
+  enable: true
