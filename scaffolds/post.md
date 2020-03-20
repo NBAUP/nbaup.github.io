@@ -8,3 +8,5 @@ categories:
 type: weibo
 url:
 ---
+
+<!-- more -->
