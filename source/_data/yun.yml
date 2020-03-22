@@ -27,7 +27,7 @@ footer:
     icp: 浙ICP备15021890号
   live_time:
     enable: true
-    start_time: 2020-01-27T00:00:00
+    start_time: "2020-01-27T00:00:00.000Z"
     prefix: 本博客已运行
     suffix:
 
@@ -49,6 +49,10 @@ social:
     link: https://space.bilibili.com/521602226
     icon: icon-bilibili-line
     color: "#FF8EB3"
+  - name: QQ
+    link: https://wpa.qq.com/msgrd?v=3&uin=565317777&site=qq&menu=yes
+    icon: icon-qq-line
+    color: "#12B7F5"
 
 pages:
   - name: 友链
@@ -92,3 +96,7 @@ comment:
 
 busuanzi:
   enable: true
+
+google_analytics:
+  enable: true
+  id: UA-161507662-1
