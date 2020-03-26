@@ -28,12 +28,12 @@ footer:
   live_time:
     enable: true
     start_time: "2020-01-27T00:00:00.000Z"
-    prefix: 本博客已运行
+    prefix: 持续更新
     suffix:
 
 notice:
   enable: true
-  content: 本博客所有视频归NBA（美国职业篮球联赛）及视频制作方所有，视频仅做学习之用，不得用于商业行为！
+  content: 本博客所有视频版权归NBA（美国职业篮球联赛）及YouTuber主播所有，视频仅供学习交流，严禁用于商业用途！
 
 bg_image:
   url: /images/SEO-image-NBA-logoman.jpg
