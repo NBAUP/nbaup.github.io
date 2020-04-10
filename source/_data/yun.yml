@@ -61,6 +61,8 @@ pages:
     color: dodgerblue
 
 head:
+  css:
+    custom: /css/custom.css
   js:
     async:
       iconfont: //at.alicdn.com/t/font_1704487_b1ct7hrpsjd.js
@@ -100,3 +102,5 @@ busuanzi:
 google_analytics:
   enable: true
   id: UA-161507662-1
+
+baidu_push: true
