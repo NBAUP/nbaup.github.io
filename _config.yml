@@ -5,6 +5,7 @@
 # Site
 title: NBA·Max
 subtitle: "YouTube 精彩NBA视频分享博客!"
+description: 
 keywords:
   - NBA
   - 篮球
@@ -17,6 +18,10 @@ keywords:
   - NBA经典回顾
   - NBA球员
   - NBA交易
+  - NBA技术
+  - NBA球员
+  - NBA经典回顾
+  - NBAMax
 author: Max
 language: zh-CN
 timezone: "Asia/Shanghai"
