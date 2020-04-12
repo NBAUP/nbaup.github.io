@@ -15,7 +15,6 @@ avatar:
 reward_settings:
   enable: true
   comment: 犒赏博主
-  url: /about
 
 footer:
   since: 2019
@@ -104,3 +103,21 @@ google_analytics:
   id: UA-161507662-1
 
 baidu_push: true
+
+menu:
+  home:
+    path: /
+    icon: icon-home-4-line
+  archives:
+    path: /archives
+    icon: icon-archive-line
+  tags:
+    path: /tags
+    icon: icon-price-tag-3-line
+  categories:
+    path: /categories
+    icon: icon-folder-2-line
+  custom:
+    title: 打赏
+    path: /about
+    icon: icon-hand-coin-line
