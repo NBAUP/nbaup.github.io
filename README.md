@@ -11,6 +11,7 @@ git add -A
 git commit -m "backup"
 git push
 ```
+sh update.sh
 
 ### 还原备份
 
