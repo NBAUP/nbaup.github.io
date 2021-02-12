@@ -2,6 +2,14 @@
 
 [![GitHub Pages](https://github.com/NBAUP/nbaup.github.io/workflows/GitHub%20Pages/badge.svg)](https://github.com/NBAUP/nbaup.github.io/actions)
 
+## Install
+
+```sh
+git clone https://github.com/NBAUP/nbaup.github.io
+git clone https://github.com/YunYouJun/hexo-theme-yun themes/yun
+yarn
+```
+
 ## 常用命令
 
 ### 备份
