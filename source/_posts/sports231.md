@@ -1,6 +1,5 @@
 ---
 title: 【NBA球员】天赋不够，努力来凑 ! 草根球员的逆袭之路-吉米·巴特勒Jimmy Butler
-在运动世界中
 tags:
   - 球员
 categories:

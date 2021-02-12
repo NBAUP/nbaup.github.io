@@ -5,6 +5,7 @@
   "scripts": {
     "build": "hexo generate",
     "clean": "hexo clean",
+    "dev": "export NODE_ENV=dev && hexo s",
     "deploy": "hexo deploy",
     "server": "hexo server"
   },
