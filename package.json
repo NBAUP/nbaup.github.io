@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "backup": "sh update.sh",
     "build": "hexo generate",
     "clean": "hexo clean",
     "dev": "export NODE_ENV=dev && hexo s",
