@@ -9,7 +9,7 @@ const handler = new Webhooks({
 });
 
 handler.on("push", (event) => {
-  ctx.logger.info(
+  console.info(
     `Received a push event for ${event.payload.repository.name} to ${event.payload.ref}`
   );
 
