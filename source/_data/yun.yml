@@ -32,7 +32,7 @@ footer:
     color: "#C97E50"
   beian:
     enable: true
-    icp: 浙ICP备15021890号
+    icp: 浙ICP备2021001654号
   live_time:
     enable: true
     start_time: "2020-01-27T00:00:00.000Z"
@@ -50,13 +50,9 @@ bg_image:
 
 social:
   - name: 微博
-    link: https://www.weibo.com/mitoplus
+    link: https://www.weibo.com/shijiaoplus
     icon: icon-weibo-line
     color: "#E6162D"
-  - name: 哔哩哔哩
-    link: https://space.bilibili.com/521602226
-    icon: icon-bilibili-line
-    color: "#FF8EB3"
   - name: QQ
     link: https://wpa.qq.com/msgrd?v=3&uin=565317777&site=qq&menu=yes
     icon: icon-qq-line
@@ -113,9 +109,9 @@ menu:
   tags:
     path: /tags
     icon: icon-price-tag-3-line
-  categories:
-    path: /categories
-    icon: icon-folder-2-line
+  # categories:
+  #   path: /categories
+  #   icon: icon-folder-2-line
   custom:
     title: 打赏
     path: /about
