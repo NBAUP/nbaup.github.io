@@ -4,7 +4,7 @@
 
 # Site
 title: 篮球营
-subtitle: "YouTube 精彩NBA视频分享博客!"
+subtitle: "YouTube NBA精彩视频博客!"
 description:
 keywords:
   - NBA
@@ -21,8 +21,8 @@ keywords:
   - NBA技术
   - NBA球员
   - NBA经典回顾
-  - NBAMax
-author: Max
+  - 蓝球营
+author: 营长
 language: zh-CN
 timezone: "Asia/Shanghai"
 
