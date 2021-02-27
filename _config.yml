@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 篮球营
+title: NBA·Max
 subtitle: "YouTube NBA精彩视频博客!"
 description:
 keywords:
@@ -21,8 +21,8 @@ keywords:
   - NBA技术
   - NBA球员
   - NBA经典回顾
-  - 蓝球营
-author: 营长
+  - NBA·Max
+author: Max
 language: zh-CN
 timezone: "Asia/Shanghai"
 

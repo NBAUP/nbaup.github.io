@@ -14,7 +14,7 @@ avatar:
 
 reward:
   enable: true
-  comment: 犒赏营长
+  comment: 犒赏博主
   methods:
     - name: 支付宝
       path: /images/alipay.jpg
