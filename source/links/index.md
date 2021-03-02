@@ -16,4 +16,4 @@ links:
 
 ## 说明
 
-添加请联系 [Telegram](https://t.me/NBAMax)
+添加请联系 [Telegram](https://t.me/end_im)
