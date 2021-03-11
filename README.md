@@ -31,7 +31,7 @@ git add -A
 git commit -m "backup"
 git push
 ```
-
+出现异常输入：goproxy
 sh update.sh
 
 ### 还原备份
